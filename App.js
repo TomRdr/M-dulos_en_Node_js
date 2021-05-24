@@ -1,0 +1,10 @@
+const operaciones = require('./operaciones')
+
+console.log('-------LA SUMA-----------------RESPUESTA--')
+console.log(operaciones.sumar(25, 45))
+console.log('-------LA RESTA-----------------RESPUESTA--')
+console.log(operaciones.restar(150, 256))
+console.log('-------LA MULTIPLICACION-----------------RESPUESTA--')
+console.log(operaciones.mult(78, 5))
+console.log('-------LA DIVICION-----------------RESPUESTA--')
+console.log(operaciones.dividir(120, 5))
